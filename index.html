@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsenyuk Danil | Developer</title>
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+    <meta name="theme-color" content="#36d1dc" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-122228201-4');
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Arsenyuk Danil</span>
+          <br />
+          I'm the Frontend Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid thumbnail rounded"
+              src="./assets/portfolio.jpg"
+              alt="Profile Image"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I'm Arsenyuk Danil, Frontend Developr from Krasnodar
+            </p>
+            <p class="about-wrapper__info-text">
+              I am currently studying at the Kuban State University at the Faculty of
+              Computer Technology and Applied Mathematics. I love writing code and learn
+              anythings about it. I am currently learning to write applications on React.
+            </p>
+            <span class="about-wrapper__cta">
+              <a
+                href="./assets/Arsenyuk_danil_Resume.pdf"
+                target="_blank"
+                class="cta-btn cta-btn--resume"
+                >View Resume</a
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- test -->
+
+          <div class="filters-button">
+            <a href="#" class="filter-btn active" data-filter="*">All</a>
+            <a href="#" class="filter-btn" data-filter=".react">React</a>
+            <a href="#" class="filter-btn" data-filter=".js">JS projects</a>
+            <a href="#" class="filter-btn" data-filter=".lending">Landing page</a>
+            <a href="#" class="filter-btn" data-filter=".eCommerce">Ecommerce</a>
+            <a href="#" class="filter-btn" data-filter=".Multipage">Multipage page</a>
+          </div>
+          <div class="grid">
+            <div class="grid-item react">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">TODO APP ReactJS</h3>
+                  <p class="project-wrapper__text-info">
+                    Stack: ReactJS (useState, useReducer, useEffect) React, Router, Axios,
+                    classnames
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://github.com/sl14888/React-todo-learning"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/React-todo-learning"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/2.PNG" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item react lending">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Drupal-coder</h3>
+                  <p class="project-wrapper__text-info">
+                    project of increased complexity for the subject: Development of a user
+                    WEB interface. using: React, useState, useEffect, sass,
+                    react-hook-form,react-router-dom, RequestAnimationFrame, AXIOS
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/react-kubSu/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/react-kubSu"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/1.PNG" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item react">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">React Weather App</h3>
+                  <p class="project-wrapper__text-info">
+                    Typescript with weather-api, redux, scss-module Stack: Frontend: •
+                    React • TypeScript • Redux-thunk / Redux-Toolkit • Scss / Scss-module
+                    Backend: • API open weather api
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://github.com/sl14888/React-weather-app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/React-weather-app"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/3.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item lending">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Bookmark landing page</h3>
+                  <p class="project-wrapper__text-info">
+                    View the optimal layout for the site depending on their device's
+                    screen size See hover states for all interactive elements on the page
+                    Receive an error message when the newsletter form is submitted if: The
+                    input field is empty The email address is not formatted correctly
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/frontendmentor.io/bookmark-landing-page-master/app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/frontendmentor.io/tree/main/bookmark-landing-page-master"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/4.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item eCommerce js">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Small shop on pure JS</h3>
+                  <p class="project-wrapper__text-info">
+                    A small store with goods basket shipping counter of goods with css
+                    framework bootstrap 4 using pure js
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/rolls-shop-small-pet-project-/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/rolls-shop-small-pet-project-"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/5.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item js">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Comics API VanillaJS</h3>
+                  <p class="project-wrapper__text-info">
+                    testing marvel api on pure js output of a large number of comics with
+                    pagination and a modal window with information about comics
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/Comics-API-VanillaJS/public/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/Comics-API-VanillaJS"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/6.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item lending js">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">
+                    Coding bootcamp testimonials slider
+                  </h3>
+                  <p class="project-wrapper__text-info">
+                    View the optimal layout for the component depending on their device's
+                    screen size Navigate the slider using either their mouse/trackpad or
+                    keyboard
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/coding-bootcamp-testimonials-slider-master/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/coding-bootcamp-testimonials-slider-master"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/7.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item js">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Time tracking dashboard</h3>
+                  <p class="project-wrapper__text-info">
+                    frontendmentor.io <br />
+                    View the optimal layout for the site depending on their device's
+                    screen size See hover states for all interactive elements on the page
+                    Switch between viewing Daily, Weekly, and Monthly stats
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/time-tracking-dashboard-main/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/time-tracking-dashboard-main"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/8.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item js">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Converter Currency</h3>
+                  <p class="project-wrapper__text-info">
+                    currency converter with real-time api on pure js with display of
+                    previous values
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://github.com/sl14888/Converter-CurrencyVanillaJS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://sl14888.github.io/Converter-CurrencyVanillaJS/"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://github.com/sl14888/Converter-CurrencyVanillaJS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/9.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item lending">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Carsharing in Ciev/</h3>
+                  <p class="project-wrapper__text-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    voluptas, sit nam perspiciatis tempore aspernatur ullam necessitatibus
+                    impedit repellendus vero sed ipsa eos beatae ab sint saepe nostrum!
+                    Enim, perferendis.
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/1_CarsharingInCiev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/websitesForPages/tree/main/1_CarsharingInCiev"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/1_CarsharingInCiev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/10.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item lending">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Car in USA</h3>
+                  <p class="project-wrapper__text-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    voluptas, sit nam perspiciatis tempore aspernatur ullam necessitatibus
+                    impedit repellendus vero sed ipsa eos beatae ab sint saepe nostrum!
+                    Enim, perferendis.
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/2_CarInUSA/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a href="#" target="_blank" class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/2_CarInUSA/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/11.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item lending">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Mavic 2 Pro</h3>
+                  <p class="project-wrapper__text-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    voluptas, sit nam perspiciatis tempore aspernatur ullam necessitatibus
+                    impedit repellendus vero sed ipsa eos beatae ab sint saepe nostrum!
+                    Enim, perferendis.
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/3_mavic/app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/websitesForPages/tree/main/3_mavic"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/3_mavic/app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/12.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item Multipage eCommerce">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">kristall23.ru</h3>
+                  <p class="project-wrapper__text-info">
+                    Wordpress blog <br />
+                    real project for company 'Kristall'
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="http://kristall23.ru/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img src="./assets/13.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item eCommerce Multipage">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">PizzaTime</h3>
+                  <p class="project-wrapper__text-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    voluptas, sit nam perspiciatis tempore aspernatur ullam necessitatibus
+                    impedit repellendus vero sed ipsa eos beatae ab sint saepe nostrum!
+                    Enim, perferendis.
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/pizzaTime/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/websitesForPages/tree/main/pizzaTime"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/pizzaTime/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/14.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item eCommerce">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Annon eCommerce</h3>
+                  <p class="project-wrapper__text-info">
+                    responsive ecommerce website, maximum compatiblities in all mobile
+                    devices, built using HTML, CSS, and JavaScript.
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/anon-ecommerce/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/websitesForPages/tree/main/anon-ecommerce"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/anon-ecommerce/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/15.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item Multipage">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">education Website</h3>
+                  <p class="project-wrapper__text-info">
+                    make a complete responsive multi pages online education / university /
+                    college website design using html css / sass and vanilla javascript
+                    step by step. create a complete responsive online education / online
+                    learning / e-learning / college / university / school website design
+                    using html css / sass and vanilla javascript
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/education-website/home.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/websitesForPages/tree/main/education-website"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/education-website/home.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/16.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item eCommerce Multipage">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Grocery Store</h3>
+                  <p class="project-wrapper__text-info">
+                    make a complete responsive multi pages online grocery store website
+                    design using html css / sass / scss and vanilla javascript step by
+                    step. create a complete responsive multi-pages online grocery store
+                    website design template using html css / sass and vanilla javascript
+                    from scratch.
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/grocery-website/home"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/websitesForPages/tree/main/grocery-website"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/grocery-website/home"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/17.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="grid-item eCommerce lending">
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Pet Store</h3>
+                  <p class="project-wrapper__text-info">
+                    create a complete responsive online pet service shop website design
+                    template using html css and vanilla javascript from scratch.
+                  </p>
+                  <div class="project-wrapper__text-btns">
+                    <a
+                      href="https://sl14888.github.io/websitesForPages/pet-shop/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-btn cta-btn--hero cta-btn--projects"
+                      >See Live</a
+                    >
+                    <a
+                      href="https://github.com/sl14888/websitesForPages/tree/main/pet-shop"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a
+                    href="https://sl14888.github.io/websitesForPages/pet-shop/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="thumbnail rounded">
+                      <img src="./assets/18.png" class="img-fluid" alt="Project Image" />
+                    </div>
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Always in touch</p>
+          <a href="https://t.me/sl333333" class="cta-btn cta-btn--resume">Call me</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://t.me/sl333333"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="telegram"
+          >
+            <i class="fa fa-telegram"></i>
+          </a>
+          <a
+            href="https://github.com/sl14888"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span>
+          <a href="https://github.com/sl14888" target="_blank" rel="noopener noreferrer"
+            >sl14888</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/isotope.pkgd.min.js"></script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
